@@ -58,7 +58,7 @@
             <p>🎯 Node.js, 🎯 Test-Driven Development</p>
           </section>
           <section>
-            <h2>Though I'm ready to offer my skills now.</h2>
+            <h2>Though I am ready to offer my skills now.</h2>
             <p>
               Why not check out my <a target="_self" href="/projects">portfolio</a> and
               <a target="_self" href="/cv">CV</a>?
