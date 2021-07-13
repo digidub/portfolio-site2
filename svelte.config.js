@@ -1,9 +1,8 @@
-/** @type {import('@sveltejs/kit').Config} */
-const netlify = require('@sveltejs/adapter-netlify');
+import adapter from '@sveltejs/adapter-netlify';
 
 const config = {
   kit: {
-    adapter: netlify(),
+    adapter: adapter(),
     target: '#svelte',
   },
 };
