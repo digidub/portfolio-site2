@@ -11,6 +11,10 @@
   }
 </script>
 
+<svelte:head>
+  <link rel="prefetch" href={sun} />
+</svelte:head>
+
 <div class="container">
   <div class="wrapper">
     <header class="page-header">
