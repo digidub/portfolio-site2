@@ -19,17 +19,17 @@
 <div class="container">
   <div class="wrapper">
     <header class="page-header">
-      <a target="_self" class="page-name" href="{base}/">Alex Cox</a>
+      <a class="page-name" href="{base}/">Alex Cox</a>
       <nav class="page-nav">
         <ul>
           <li>
-            <a target="_self" aria-current={$page.path === '/projects' ? 'page' : undefined} href="/projects">Projects</a>
+            <a aria-current={$page.path === '/projects' ? 'page' : undefined} href="/projects">Projects</a>
           </li>
           <li>
-            <a target="_self" aria-current={$page.path === '/cv' ? 'page' : undefined} href="{base}/cv">Cv</a>
+            <a aria-current={$page.path === '/cv' ? 'page' : undefined} href="{base}/cv">Cv</a>
           </li>
           <li>
-            <a target="_self" aria-current={$page.path === '/contact' ? 'page' : undefined} href="{base}/contact">Contact</a>
+            <a aria-current={$page.path === '/contact' ? 'page' : undefined} href="{base}/contact">Contact</a>
           </li>
           <li class="darkmode-toggle">
             {#if !$isDarkMode}
