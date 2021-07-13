@@ -11,11 +11,6 @@
   }
 </script>
 
-<!-- svelte-ignore component-name-lowercase -->
-<svelte:head>
-  <base target="_blank" />
-</svelte:head>
-
 <div class="container">
   <div class="wrapper">
     <header class="page-header">
