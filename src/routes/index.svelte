@@ -55,7 +55,7 @@
           </section>
           <section>
             <h2>But I'm not stopping there!</h2>
-            <p>🎯 Node.js, 🎯 Test-Driven Development</p>
+            <p>🎯 Node.js, 🎯 Test-Driven Development, 🎯 TypeScript</p>
           </section>
           <section>
             <h2>Though I am ready to offer my skills now.</h2>
