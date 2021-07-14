@@ -5,9 +5,27 @@
   import sun from '../../static/sun.svg';
   import moon from '../../static/moon.svg';
 
+  const checkDarkMode = (() => {
+    if (typeof window !== 'undefined') {
+      console.log('we are running on the client');
+      console.log(localStorage);
+      if (!localStorage.getItem('darkMode')) return;
+      else {
+        let fetchStorage = localStorage.getItem('darkMode');
+        console.log(fetchStorage);
+        if (fetchStorage === 'on') window.document.body.classList.toggle('dark');
+        else return;
+      }
+    } else {
+      console.log('we are running on the server');
+    }
+  })();
+
   function toggle() {
     isDarkMode.set(!$isDarkMode);
     window.document.body.classList.toggle('dark');
+    if ($isDarkMode) localStorage.setItem('darkMode', 'on');
+    else localStorage.setItem('darkMode', 'off');
   }
 </script>
 
