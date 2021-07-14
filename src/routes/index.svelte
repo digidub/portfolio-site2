@@ -51,7 +51,7 @@
           </section>
           <section>
             <h2>...and I also know how things work under the hood.</h2>
-            <p>NPM, Webpack, Git</p>
+            <p>NPM, Webpack, Git, Firebase, Linux (Ubuntu)</p>
           </section>
           <section>
             <h2>But I'm not stopping there!</h2>
