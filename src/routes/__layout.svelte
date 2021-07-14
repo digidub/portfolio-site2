@@ -13,8 +13,10 @@
       else {
         let fetchStorage = localStorage.getItem('darkMode');
         console.log(fetchStorage);
-        if (fetchStorage === 'on') window.document.body.classList.toggle('dark');
-        else return;
+        if (fetchStorage === 'on') {
+          isDarkMode.set(true);
+          window.document.body.classList.toggle('dark');
+        } else return;
       }
     } else {
       console.log('we are running on the server');
