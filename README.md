@@ -13,7 +13,8 @@ A responsive portfolio site built using SvelteKit.
 In building this project I leveraged the following concepts and technologies:
 
 - **Svelte (& SvelteKit)**
-  - This was my first time using Svelte (and SvelteKit)! Building components using this framework was extremely straightforward, as all front-end concerns(JavaScript, HTML and CSS) can be kept in each .svelte component file.
+  - This was my first time using Svelte (and SvelteKit)! Building components using this framework was extremely straightforward, as all front-end concerns(JavaScript, HTML and CSS)for each component can be kept in its own `.svelte` file.
+  - There is minimal boilerplate associated with component creation and state management.
   - Svelte stores are a simple way to subscribe to and update application state.
   - Svelte's logic blocks for conditional and async rendering make displaying data simple and charming to implement.
   - SvelteKit's use of the `/routes/` directory to easily create SPA routing.
