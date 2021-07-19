@@ -47,7 +47,7 @@
         <div class="skills">
           <section>
             <h2>I'm a front-end web developer.</h2>
-            <p>HTML5, CSS3, JavaScript, React, Svelte</p>
+            <p>JavaScript, HTML, CSS, React, Svelte</p>
           </section>
           <section>
             <h2>...and I also know how things work under the hood.</h2>
