@@ -1,38 +1,21 @@
-# create-svelte
+# PORTFOLIO SITE
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+A responsive portfolio site built using SvelteKit.
 
-## Creating a project
+## Project Link
 
-If you're seeing this, you've probably already done this step. Congrats!
+[View the project here](https://alexcodes.co.uk)
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+![Cart Demo](https://i.imgur.com/6eJXFmM.gif 'Cart Demo')
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+## Skills Employed
 
-> Note: the `@next` is temporary
+In building this project I leveraged the following concepts and technologies:
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+- **Svelte (& SvelteKit)**
+  - This was my first time using Svelte (and SvelteKit)! Building components using this framework was extremely straightforward, as all front-end concerns(JavaScript, HTML and CSS) can be kept in each .svelte component file.
+  - Svelte stores are a simple way to subscribe to and update application state.
+  - Svelte's logic blocks for conditional and async rendering make displaying data simple and charming to implement.
+  - SvelteKit's use of the `/routes/` directory to easily create SPA routing.
+- **Deploying with Netlify**
+  - This was my first time using Netlify and I got to grips with using this in conjunction with GitHub for continuous deployment.
