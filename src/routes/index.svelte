@@ -1,72 +1,36 @@
 <script>
-  import { onMount } from 'svelte';
-  import { visit } from '../components/stores';
   import PageSlide from '../components/PageSlide.svelte';
-
-  let phrase = `I taught myself to build websites,
-				such as this one.`;
-  let typedChars = '';
-  let index = 0;
-  let typewriter;
-  let body = false;
-
-  const type = () => {
-    if (!$visit) {
-      if (index < phrase.length) {
-        typedChars += phrase[index];
-        index += 1;
-      } else {
-        clearInterval(typewriter);
-        body = true;
-        visit.set(true);
-      }
-    } else {
-      clearInterval(typewriter);
-      typedChars = phrase;
-      body = true;
-    }
-    return;
-  };
-
-  const typer = () => (typewriter = setInterval(type, 50));
-
-  onMount(() => {
-    typer();
-  });
 </script>
 
 <svelte:head><title>Alex Cox • Web Developer • Home</title></svelte:head>
 
 <PageSlide>
   <main>
-    <h1 class="page-intro">
-      {typedChars}
-    </h1>
-    {#if body}
-      <PageSlide>
-        <div class="skills">
-          <section>
-            <h2>I'm a front-end web developer.</h2>
-            <p>JavaScript, HTML, CSS, React, Svelte</p>
-          </section>
-          <section>
-            <h2>...and I also know how things work under the hood.</h2>
-            <p>NPM, Webpack, Git, Firebase, Linux (Ubuntu)</p>
-          </section>
-          <section>
-            <h2>But I'm not stopping there!</h2>
-            <p>🎯 Node.js, 🎯 Test-Driven Development, 🎯 TypeScript</p>
-          </section>
-          <section>
-            <h2>Though I am ready to offer my skills now.</h2>
-            <p>
-              Why not check out my <a target="_self" href="/projects">portfolio</a> and
-              <a target="_self" href="/cv">CV</a>?
-            </p>
-          </section>
-        </div>
-      </PageSlide>
-    {/if}
+    <h1 class="page-intro">I taught myself to build websites, such as this one.</h1>
+
+    <PageSlide>
+      <div class="skills">
+        <section>
+          <h2>I'm a software developer and open source contributor.</h2>
+          <p>JavaScript, React, Svelte, HTML, CSS</p>
+        </section>
+        <section>
+          <h2>...and I know how things work under the hood.</h2>
+          <p>Test-Driven Development (TDD), NPM, Webpack, Git, Firebase, Linux</p>
+        </section>
+        <section>
+          <h2>But I'm not stopping there!</h2>
+          <p>🎯 Node.js, 🎯 TypeScript</p>
+        </section>
+        <section>
+          <h2>Though I am ready to offer my skills now:</h2>
+          <p>
+            Why not check out my <a target="_self" href="/projects">portfolio</a> and
+            <a target="_self" href="/cv">CV</a>? Or <a target="_self" href="/contact">contact</a> me about a job?
+          </p>
+        </section>
+      </div>
+    </PageSlide>
   </main>
 </PageSlide>
 
