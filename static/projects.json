@@ -3,7 +3,7 @@
     {
       "name": "Battleship",
       "image": "/battleship.gif",
-      "technologies": "Test Driven Development (TDD) using Jest, eact (useReducer, useState), JavaScript, CSS, Styled Components",
+      "technologies": "Test Driven Development (TDD) using Jest, React (useReducer, useState), JavaScript, CSS, Styled Components",
       "description": "The classic Battleship game built using TDD for the application logic",
       "liveLink": "https://digidub.github.io/battleship/",
       "repoLink": "https://github.com/digidub/battleship"
