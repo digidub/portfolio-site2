@@ -12,7 +12,7 @@
       <div class="skills">
         <section>
           <h2>I'm a software developer and open source contributor.</h2>
-          <p>JavaScript, React, Svelte, HTML, CSS</p>
+          <p>ES6 JavaScript, React, Svelte, Node.JS, Express, MongoDB</p>
         </section>
         <section>
           <h2>...and I know how things work under the hood.</h2>
@@ -20,7 +20,7 @@
         </section>
         <section>
           <h2>But I'm not stopping there!</h2>
-          <p>🎯 Node.js, 🎯 TypeScript</p>
+          <p>🎯 TypeScript</p>
         </section>
         <section>
           <h2>Though I am ready to offer my skills now:</h2>
