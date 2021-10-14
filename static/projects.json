@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "name": "Vinyl Record Stocklist",
+      "name": "Vinyl Record Inventory App",
       "image": "/inventory.gif",
       "technologies": "Node.JS, Express, Mongoose, MongoDB, Multer, Pug, Bootstrap",
       "description": "An inventory management app for vinyl records, using linked MongoDB documents",
