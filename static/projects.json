@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "name": "Blog REST API",
+      "image": "/blogapi.gif",
+      "technologies": "Node.JS, Express, Mongoose, MongoDB, Passport",
+      "description": "A REST API for creating, reading, updating and deleting blog posts & comments",
+      "liveLink": "https://github.com/digidub/blog-api",
+      "repoLink": "https://github.com/digidub/blog-api"
+    },
+    {
       "name": "Vinyl Record Inventory App",
       "image": "/inventory.gif",
       "technologies": "Node.JS, Express, Mongoose, MongoDB, Multer, Pug, Bootstrap",
